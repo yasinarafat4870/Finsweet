@@ -393,11 +393,101 @@ a {
       Client Part CSS Start
 ================================= */
 #client_part {
-  padding: 110px 0px;
-  background: var(--bg-white);
-  border: 1px solid #00000087;
+  padding: 131px 0px;
+  background: #f4f6fc87;
+  border: 1px solid #0000009f;
+}
+#client_part .client_left_part h2 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#client_part .client_left_part p {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-top: 16px;
+}
+
+#client_part .client_right_part h3 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 48px;
+}
+#client_part .client_right_part .client_details h5 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+}
+#client_part .client_right_part .client_details p {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
 }
 
 /* ============================
       Client Part CSS End
 =============================== */
+/* ============================
+      FAQ Part CSS start
+=============================== */
+#faq_part {
+  padding: 50px 0;
+}
+#faq_part .faq_left_part h4 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  padding-bottom: 16px;
+}
+#faq_part .faq_left_part a {
+  color: var(--royal-blue, #2405f2);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+#faq_part .faq_right_accordion_part span {
+  color: var(--royal-blue, #2405f2);
+  text-align: center;
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#faq_part .faq_right_accordion_part h6 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-left: 59px;
+}
+#faq_part .faq_right_accordion_part p {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.87;
+}
+/* ============================
+      FAQ Part CSS End
+=============================== */
+#section {
+  padding: 150px 0;
+}

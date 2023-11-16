@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +34,7 @@ a {
 }
 :root {
   --poppins: "Poppins", sans-serif;
+  --Manrope: "Manrope", sans-serif;
   --banner_background: #1c1e53;
   --white: #fff;
   --yellow: #fcd980;
@@ -488,6 +491,126 @@ a {
 /* ============================
       FAQ Part CSS End
 =============================== */
-#section {
-  padding: 150px 0;
+/* ============================
+      Inquiry Part CSS Start
+=============================== */
+#inquiry_part {
+  padding-bottom: 50px;
 }
+
+#inquiry_part .inquiry_right_part .inquiry_right_text h3 {
+  color: var(--white, #fff);
+  font-family: var(--poppins);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+#inquiry_part .inquiry_right_part .inquiry_right_text {
+  top: 0%;
+  bottom: 0%;
+  padding: 96px;
+}
+#inquiry_part .inquiry_right_part .inquiry_right_text p {
+  color: var(--white, #fff);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 30px;
+}
+#inquiry_part .inquiry_left_part {
+  background: var(--banner_background);
+  padding: 96px;
+  margin-left: -3.1px;
+}
+#inquiry_part .inquiry_left_part .inquiry_left_text h3 {
+  color: var(--white);
+  font-family: var(--poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 16px;
+}
+#inquiry_part .inquiry_left_part .inquiry_left_text p {
+  color: var(--bg-white, #f4f6fc);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 303px;
+}
+#inquiry_part .inquiry_left_part .inquiry_left_text .inquiry_btn {
+  color: #1b1c2b;
+  font-family: var(--Manrope);
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--yellow);
+  padding: 16px 150px;
+  border-radius: 41px;
+}
+#inquiry_part .inquiry_left_part .inquiry_left_text .inquiry_get_btn {
+  color: var(--white, #fff);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  justify-content: center;
+  padding-top: 28px;
+  padding-bottom: 48px;
+}
+/* ============================
+      Inquiry Part CSS End
+=============================== */
+/* ============================
+      Blog Part CSS Start
+=============================== */
+#blog_part {
+  padding-bottom: 30px;
+}
+#blog_part h2 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 48px;
+  font-weight: 600;
+}
+#blog_part .blog_one {
+  padding-top: 64px;
+}
+#blog_part .blog_one .blog_date {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.7;
+  padding-top: 40px;
+}
+#blog_part .blog_one h4 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-top: 16px;
+}
+#blog_part .blog_one .blog_details {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+#blog_part .blog_one a {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+#blog_part .blog_one a:hover {
+  color: var(--royal-blue);
+}
+/* ============================
+      Blog Part CSS End
+=============================== */

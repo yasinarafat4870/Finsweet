@@ -521,7 +521,7 @@ a {
 #inquiry_part .inquiry_left_part {
   background: var(--banner_background);
   padding: 96px;
-  margin-left: -3.1px;
+  margin-left: -3.5px;
 }
 #inquiry_part .inquiry_left_part .inquiry_left_text h3 {
   color: var(--white);
@@ -537,8 +537,22 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
-  padding-bottom: 303px;
+  padding-bottom: 40px;
 }
+#inquiry_part .inquiry_left_part .inquiry_left_text .form_part {
+  padding-bottom: 39px;
+}
+
+#inquiry_part .inquiry_left_part .inquiry_left_text .form_part .form_part_text {
+  color: var(--bg-white, #f4f6fc);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  background: transparent;
+}
+
 #inquiry_part .inquiry_left_part .inquiry_left_text .inquiry_btn {
   color: #1b1c2b;
   font-family: var(--Manrope);

@@ -543,14 +543,17 @@ a {
   padding-bottom: 39px;
 }
 
-#inquiry_part .inquiry_left_part .inquiry_left_text .form_part .form_part_text {
+#inquiry_part .inquiry_left_part .inquiry_left_text .form_part input {
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  background: transparent;
+}
+#inquiry_part .inquiry_left_part .inquiry_left_text .form_part {
   color: var(--bg-white, #f4f6fc);
   font-family: var(--poppins);
   font-size: 16px;
   font-weight: 400;
-  border-radius: 8px;
-  border: 1.5px solid rgba(255, 255, 255, 0.05);
-  background: transparent;
+  opacity: 0.7;
 }
 
 #inquiry_part .inquiry_left_part .inquiry_left_text .inquiry_btn {
@@ -561,6 +564,19 @@ a {
   background: var(--yellow);
   padding: 16px 150px;
   border-radius: 41px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#inquiry_part .inquiry_left_part .inquiry_left_text .inquiry_btn:hover {
+  color: var(--dark_blue);
+  background: var(--white);
 }
 #inquiry_part .inquiry_left_part .inquiry_left_text .inquiry_get_btn {
   color: var(--white, #fff);
@@ -569,8 +585,16 @@ a {
   font-weight: 500;
   line-height: 32px;
   justify-content: center;
-  padding-top: 28px;
-  padding-bottom: 48px;
+  margin-top: 28px;
+  margin-bottom: 48px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#inquiry_part .inquiry_left_part .inquiry_left_text .inquiry_get_btn:hover {
+  color: var(--yellow);
 }
 /* ============================
       Inquiry Part CSS End
@@ -579,7 +603,7 @@ a {
       Blog Part CSS Start
 =============================== */
 #blog_part {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 #blog_part h2 {
   color: var(--dark_blue, #282938);
@@ -587,10 +611,10 @@ a {
   font-size: 48px;
   font-weight: 600;
 }
-#blog_part .blog_one {
+#blog_part .blog_content {
   padding-top: 64px;
 }
-#blog_part .blog_one .blog_date {
+#blog_part .blog_content .blog_date {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 16px;
@@ -598,7 +622,7 @@ a {
   opacity: 0.7;
   padding-top: 40px;
 }
-#blog_part .blog_one h4 {
+#blog_part .blog_content h4 {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 24px;
@@ -606,7 +630,7 @@ a {
   line-height: 36px;
   padding-top: 16px;
 }
-#blog_part .blog_one .blog_details {
+#blog_part .blog_content .blog_details {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 16px;
@@ -616,15 +640,74 @@ a {
   padding-top: 16px;
   padding-bottom: 32px;
 }
-#blog_part .blog_one a {
+#blog_part .blog_content a {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 16px;
   font-weight: 500;
+  transition: all linear 0.2s;
 }
-#blog_part .blog_one a:hover {
+#blog_part .blog_content a:hover {
   color: var(--royal-blue);
 }
 /* ============================
       Blog Part CSS End
+=============================== */
+/* ============================
+      Footer Part CSS Start
+=============================== */
+
+#footer_part {
+  padding: 100px 0;
+  background: var(--banner_background);
+}
+#footer_part .footer_left_part p {
+  color: var(--white, #fff);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 22px;
+  opacity: 0.8;
+}
+#footer_part .footer_right_part h3 {
+  color: var(--white, #fff);
+  font-family: var(--poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#footer_part .footer_right_part p {
+  color: var(--bg-white, #f4f6fc);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 14px;
+  opacity: 0.8;
+}
+#footer_part .footer_contact {
+  background: var(--yellow);
+  padding: 18px 37px;
+  margin-top: 86px;
+}
+#footer_part .footer_contact h6 {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 2px;
+}
+#footer_part .footer_contact a {
+  color: var(--dark_blue, #282938);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+/* ============================
+      Footer Part CSS End
 =============================== */

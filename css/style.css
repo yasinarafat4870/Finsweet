@@ -699,7 +699,7 @@ a {
   line-height: 40px;
   text-align: center;
   color: #1674ea;
-  background-color: #fff;
+  background-color: var(--white, #fff);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -718,7 +718,7 @@ a {
   -moz-transform: translateY(-20%);
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
-  color: #fff;
+  color: var(--white, #fff);
   background-color: #1674ea;
 }
 #footer_part .footer_right_part .social_icons a [class="fa-brands fa-twitter"] {
@@ -727,7 +727,7 @@ a {
   line-height: 40px;
   text-align: center;
   color: #1da1f2;
-  background-color: #fff;
+  background-color: var(--white, #fff);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -746,7 +746,7 @@ a {
   -moz-transform: translateY(-20%);
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
-  color: #fff;
+  color: var(--white, #fff);
   background-color: #1da1f2;
 }
 
@@ -760,7 +760,7 @@ a {
   line-height: 40px;
   text-align: center;
   color: #d62976;
-  background-color: #fff;
+  background-color: var(--white, #fff);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -779,7 +779,7 @@ a {
   -moz-transform: translateY(-20%);
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
-  color: #fff;
+  color: var(--white, #fff);
   background-color: #d62976;
 }
 
@@ -793,7 +793,7 @@ a {
   line-height: 40px;
   text-align: center;
   color: #0a66c2;
-  background-color: #fff;
+  background-color: var(--white, #fff);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -816,7 +816,7 @@ a {
   -moz-transform: translateY(-20%);
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
-  color: #fff;
+  color: var(--white, #fff);
   background-color: #0a66c2;
 }
 

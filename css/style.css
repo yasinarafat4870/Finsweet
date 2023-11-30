@@ -42,12 +42,19 @@ a {
   --royal-blue: #2405f2;
   --bg-white: #f4f6fc;
 }
+
 /* ========================
       Navbar Css Satrt
 ============================ */
 #navbar_part {
   background: var(--banner_background);
   padding: 32px 0;
+}
+.custom_menu_icon {
+  background: var(--white);
+}
+.menu_bar_icon {
+  font-size: 31px;
 }
 
 #navbar_part .custom_menu a {
@@ -65,7 +72,7 @@ a {
 #navbar_part .custom_menu a:hover {
   color: var(--white);
 }
-#navbar_part .btn {
+#navbar_part .Btn {
   color: var(--white);
   background-color: transparent;
   font-family: var(--poppins);
@@ -81,11 +88,11 @@ a {
   -ms-transition: all linear 0.2s;
   -o-transition: all linear 0.2s;
 }
-#navbar_part .btn:hover {
+#navbar_part .Btn:hover {
   color: var(--banner_background);
   background-color: var(--white);
 }
-.banner_part {
+#navbar_part .banner_part {
   margin: 120px 0;
 }
 #navbar_part .banner_left h1 {
@@ -137,7 +144,8 @@ a {
   -o-transition: all linear 0.2s;
 }
 #navbar_part .view_wrapper .view_pricing a:hover {
-  color: var(--yellow);
+  color: var(--dark_blue);
+  background: var(--white);
 }
 
 /* =============================
@@ -189,7 +197,9 @@ a {
   font-weight: 400;
   line-height: 28px;
   opacity: 0.7;
+  padding-right: 76px;
 }
+
 /* =========================
       Work Part Css End
 ============================== */
@@ -230,7 +240,6 @@ a {
   position: absolute;
   top: 0%;
   left: -44%;
-
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -238,27 +247,44 @@ a {
   -o-transition: all linear 0.3s;
   opacity: 0;
 }
+
 #project_part .img_section .left_side_img:hover .liner_overlay {
   left: 0%;
   opacity: 1;
 }
-#project_part .img_section .left_side_img .liner_overlay h3 {
+
+#project_part
+  .img_section
+  .left_side_img:hover
+  .liner_overlay
+  .liner_overlay_text {
+  position: absolute;
+  bottom: 13%;
+  left: 0%;
+}
+
+#project_part
+  .img_section
+  .left_side_img
+  .liner_overlay
+  .liner_overlay_text
+  h3 {
   color: var(--white, #fff);
   font-family: var(--poppins);
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
-  padding-top: 312px;
 }
-#project_part .img_section .left_side_img .liner_overlay p {
+#project_part .img_section .left_side_img .liner_overlay .liner_overlay_text p {
   color: var(--white, #fff);
   font-family: var(--poppins);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   opacity: 0.8;
+  padding-right: 74px;
 }
-#project_part .img_section .left_side_img .liner_overlay a {
+#project_part .img_section .left_side_img .liner_overlay .liner_overlay_text a {
   color: var(--yellow, #fcd980);
   font-family: var(--poppins);
   font-size: 16px;
@@ -269,24 +295,46 @@ a {
   margin-bottom: 32px;
   cursor: pointer;
 }
+
 #project_part
   .img_section
   .right_side_img
   .right_side_up_img
-  .gradient_overelay
-  h3 {
-  color: var(--white, #fff);
-  font-family: var(--poppins);
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 36px;
-  padding-top: 129px;
+  .gradient_overelay {
+  position: relative;
 }
 #project_part
   .img_section
   .right_side_img
   .right_side_up_img
   .gradient_overelay
+  .gradient_overela_text {
+  position: absolute;
+  bottom: 16%;
+  left: 0%;
+}
+
+#project_part
+  .img_section
+  .right_side_img
+  .right_side_up_img
+  .gradient_overelay
+  .gradient_overela_text
+  h3 {
+  color: var(--white, #fff);
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  padding-right: 27px;
+}
+
+#project_part
+  .img_section
+  .right_side_img
+  .right_side_up_img
+  .gradient_overelay
+  .gradient_overela_text
   a {
   color: var(--yellow, #fcd980);
   font-family: var(--poppins);
@@ -387,7 +435,9 @@ a {
   line-height: 28px;
   opacity: 0.7;
   padding-top: 12px;
+  padding-right: 11px;
 }
+
 /* =============================
       Design Part CSS Start
 ================================= */
@@ -395,6 +445,7 @@ a {
 /* ==============================
       Client Part CSS Start
 ================================= */
+
 #client_part {
   padding: 131px 0px;
   background: #f4f6fc87;
@@ -406,7 +457,9 @@ a {
   font-size: 38px;
   font-weight: 600;
   line-height: 56px;
+  padding-right: 31px;
 }
+
 #client_part .client_left_part p {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
@@ -415,6 +468,7 @@ a {
   line-height: 28px;
   opacity: 0.7;
   padding-top: 16px;
+  padding-right: 20px;
 }
 
 #client_part .client_right_part h3 {
@@ -425,13 +479,13 @@ a {
   line-height: 48px;
   padding-bottom: 48px;
 }
-#client_part .client_right_part .client_details h5 {
+#client_part .client_right_part .client_info .client_details h5 {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 18px;
   font-weight: 500;
 }
-#client_part .client_right_part .client_details p {
+#client_part .client_right_part .client_info .client_details p {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 12px;
@@ -455,7 +509,9 @@ a {
   font-weight: 600;
   line-height: 56px;
   padding-bottom: 16px;
+  padding-right: 91px;
 }
+
 #faq_part .faq_left_part a {
   color: var(--royal-blue, #2405f2);
   font-family: var(--poppins);
@@ -521,6 +577,7 @@ a {
 #inquiry_part .inquiry_left_part {
   background: var(--banner_background);
   padding: 96px;
+  height: 100%;
   margin-left: -3.5px;
 }
 #inquiry_part .inquiry_left_part .inquiry_left_text h3 {
@@ -538,7 +595,9 @@ a {
   font-weight: 500;
   line-height: 28px;
   padding-bottom: 40px;
+  padding-right: 119px;
 }
+
 #inquiry_part .inquiry_left_part .inquiry_left_text .form_part {
   padding-bottom: 39px;
 }
@@ -584,9 +643,7 @@ a {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
-  justify-content: center;
-  margin-top: 28px;
-  margin-bottom: 48px;
+  margin: 28px 0 48px 110px;
   transition: all linear 0.2s;
   -webkit-transition: all linear 0.2s;
   -moz-transition: all linear 0.2s;
@@ -630,7 +687,7 @@ a {
   line-height: 36px;
   padding-top: 16px;
 }
-#blog_part .blog_content .blog_details {
+#blog_part .blog_content .blog_details p {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 16px;
@@ -639,7 +696,9 @@ a {
   opacity: 0.7;
   padding-top: 16px;
   padding-bottom: 32px;
+  padding-right: 12px;
 }
+
 #blog_part .blog_content a {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
@@ -669,7 +728,9 @@ a {
   line-height: 28px;
   margin-top: 22px;
   opacity: 0.8;
+  padding-right: 191px;
 }
+
 #footer_part .footer_right_part h3 {
   color: var(--white, #fff);
   font-family: var(--poppins);
@@ -685,7 +746,9 @@ a {
   line-height: 28px;
   margin-top: 14px;
   opacity: 0.8;
+  padding-right: 223px;
 }
+
 #footer_part .footer_right_part .social_icons {
   margin-top: 30px;
 }
@@ -850,27 +913,27 @@ a {
       Last Footer Part CSS Start
 ======================================== */
 
-#last__part {
+#last_part {
   padding: 32px 0;
 }
-#last__part .last_left_part a {
+#last_part .last_left_part a {
   color: var(--dark_blue, #282938);
   font-family: var(--poppins);
   font-size: 16px;
   font-weight: 500;
 }
-#last__part .last_right_part ul li a {
-  color: var(--dark_blue, #282938);
-  font-family: var(--poppins);
+#last_part .last_right_part a {
+  color: var(--Dark-blue, #282938);
   font-size: 16px;
   font-weight: 500;
-  transition: all linear 0.2s;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -ms-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
+  line-height: 28px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
-#last__part .last_right_part ul li a:hover {
+#last_part .last_right_part a:hover {
   color: var(--royal-blue);
 }
 

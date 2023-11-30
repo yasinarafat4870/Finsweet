@@ -3,9 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+    />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>Finsweet</title>
   </head>
   <body>
@@ -14,15 +38,16 @@
          ============================== -->
 
     <section id="navbar_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <nav class="navbar navbar-expand-lg">
           <a href="#">
             <picture>
               <img src="images/logo.png" alt="logo.png" class="img-fluid" />
             </picture>
           </a>
+
           <button
-            class="navbar-toggler"
+            class="navbar-toggler custom_menu_icon"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -30,7 +55,9 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"
+              ><i class="fa-solid fa-bars menu_bar_icon"></i
+            ></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -42,42 +69,46 @@
               <a class="nav-link" href="#">FAQ</a>
               <a class="nav-link" href="#">Blog</a>
             </div>
-            <button class="btn">Contact Us</button>
+            <button class="Btn mt-sm-4 mt-lg-0">Contact Us</button>
           </div>
         </nav>
       </div>
 
-      <div class="container p-0">
-        <div class="row banner_part">
-          <div class="col-lg-6">
-            <div class="banner_left">
-              <h1>Building stellar websites for early startups</h1>
-              <p class="pt-2">
-                Nullam vitae purus at tortor mattis dapibus. Morbi purus est,
-                ultricies nec dolor sit amet, scelerisque cursus purus.
-              </p>
-            </div>
-            <div class="view_wrapper d-flex align-items-center mt-5">
-              <div class="view_work">
-                <a href="#">View our work</a>
+      <div class="container p-0 px-5 px-sm-0">
+        <div class="banner_part">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="banner_left">
+                <h1>Building stellar websites for early startups</h1>
+                <p class="pt-2">
+                  Nullam vitae purus at tortor mattis dapibus. Morbi purus est,
+                  ultricies nec dolor sit amet, scelerisque cursus purus.
+                </p>
               </div>
-              <div class="view_pricing ps-5">
-                <a href="#" class="d-flex align-items-center">
-                  View Pricing
-                  <i class="fa-solid fa-arrow-right-long ps-2"></i>
-                </a>
+              <div class="view_wrapper d-flex align-items-center my-5">
+                <div class="view_work">
+                  <a href="#">View our work</a>
+                </div>
+                <div class="view_pricing ps-2 ps-sm-5">
+                  <a href="#" class="d-flex align-items-center">
+                    View Pricing
+                    <i
+                      class="fa-light fa-arrow-right-long fa-fade fa-xl ps-2 ps-lg-3"
+                    ></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="div">
-              <picture>
-                <img
-                  src="images/Banner.png"
-                  alt="Banner.png"
-                  class="img-fluid"
-                />
-              </picture>
+            <div class="col-lg-6">
+              <div class="div">
+                <picture>
+                  <img
+                    src="images/Banner.png"
+                    alt="Banner.png"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
             </div>
           </div>
         </div>
@@ -93,26 +124,32 @@
       ===============================-->
 
     <section id="work_part">
-      <div class="container">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row">
           <div class="col-lg-4">
             <div class="work_left_side_up">
-              <h2 class="pt-lg-1">How we work</h2>
-              <p class="pt-lg-4 pe-lg-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </p>
+              <div class="pt-lg-1">
+                <h2>How we work</h2>
+              </div>
+              <div class="pt-lg-4 pe-lg-2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
+              </div>
               <div class="work_left_side_down pt-lg-3">
                 <a href="#" class="d-flex align-items-center"
                   >Get in touch with us
-                  <i class="fa-solid fa-arrow-right-long ps-2"></i>
+                  <i
+                    class="fa-light fa-arrow-right-long fa-fade fa-xl ps-2 ps-lg-3"
+                  ></i>
                 </a>
               </div>
             </div>
           </div>
           <div class="col-lg-8 ps-lg-5">
             <div class="row g-lg-5">
-              <div class="col-lg-6">
+              <div class="col-sm-6 col-lg-6 pt-md-5 pt-lg-0">
                 <div class="Strategy_part">
                   <picture>
                     <img
@@ -123,12 +160,12 @@
                   </picture>
                   <h2 class="pt-lg-3">Strategy</h2>
                   <p class="pt-lg-2">
-                    Euismod faucibus turpis eu gravida <br />
-                    mi. Pellentesque et velit aliquam .
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
                   </p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-sm-6 col-lg-6 pt-md-5 pt-lg-0">
                 <div class="Strategy_part">
                   <picture>
                     <img
@@ -139,12 +176,12 @@
                   </picture>
                   <h2 class="pt-lg-3">Wireframing</h2>
                   <p class="pt-lg-2">
-                    Euismod faucibus turpis eu gravida <br />
-                    mi. Pellentesque et velit aliquam .
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
                   </p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-sm-6 col-lg-6 pt-md-5 pt-lg-0">
                 <div class="Strategy_part">
                   <picture>
                     <img
@@ -155,12 +192,12 @@
                   </picture>
                   <h2 class="pt-lg-3">Design</h2>
                   <p class="pt-lg-2">
-                    Euismod faucibus turpis eu gravida <br />
-                    mi. Pellentesque et velit aliquam .
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
                   </p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-sm-6 col-lg-6 pt-md-5 pt-lg-0">
                 <div class="Strategy_part">
                   <picture>
                     <img
@@ -171,8 +208,8 @@
                   </picture>
                   <h2 class="pt-lg-3">Development</h2>
                   <p class="pt-lg-2">
-                    Euismod faucibus turpis eu gravida <br />
-                    mi. Pellentesque et velit aliquam .
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam.
                   </p>
                 </div>
               </div>
@@ -191,24 +228,27 @@
       ===================================-->
 
     <section id="project_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-7 col-sm-6 col-lg-6">
             <div class="left_head_text pt-lg-2">
               <h2>View our projects</h2>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-5 col-sm-6 col-lg-6">
             <div class="right_head_text d-flex justify-content-end pt-lg-2">
               <a href="#" class="d-flex align-items-center pt-4">
-                View More <i class="fa-solid fa-arrow-right-long ps-2"></i>
+                View More
+                <i
+                  class="fa-light fa-arrow-right-long fa-fade fa-xl ps-2 ps-lg-3"
+                ></i>
               </a>
             </div>
           </div>
         </div>
         <div class="img_section">
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 mb-sm-5 mb-lg-0">
               <div class="left_side_img">
                 <picture>
                   <img
@@ -218,24 +258,25 @@
                   />
                 </picture>
                 <div class="liner_overlay w-50 h-100">
-                  <h3 class="px-lg-5 pb-lg-3">
-                    Workhub office Webflow <br />
-                    Webflow Design
-                  </h3>
-                  <p class="px-lg-5 pb-lg-5">
-                    Euismod faucibus turpis eu gravida <br />
-                    mi. Pellentesque et velit aliquam
-                  </p>
-                  <a href="#" class="d-flex align-items-center px-lg-5">
-                    View project
-                    <i class="fa-solid fa-arrow-right-long ps-2"></i
-                  ></a>
+                  <div class="liner_overlay_text ps-lg-5">
+                    <h3 class="pb-md-3 pb-lg-3">
+                      Workhub office Webflow Webflow Design
+                    </h3>
+                    <p class="pb-md-5 pb-lg-5">
+                      Euismod faucibus turpis eu gravida mi. Pellentesque et
+                      velit aliquam
+                    </p>
+                    <a href="#" class="d-flex align-items-center">
+                      View project
+                      <i class="fa-solid fa-arrow-right-long ps-2"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="row ps-lg-3">
-                <div class="col-lg-12">
+                <div class="col-sm-6 col-lg-12">
                   <div class="right_side_img">
                     <div class="right_side_up_img">
                       <picture>
@@ -246,21 +287,18 @@
                         />
                       </picture>
                       <div class="gradient_overelay w-100 h-100">
-                        <div class="px-lg-5">
-                          <h3>
-                            Unisaas Website <br />
-                            Design
-                          </h3>
+                        <div class="gradient_overela_text px-lg-5">
+                          <h3>Unisaas Website Design</h3>
                           <a href="#" class="d-flex align-items-center">
                             View project
-                            <i class="fa-solid fa-arrow-right-long ps-lg-2"></i>
+                            <i class="fa-solid fa-arrow-right-long ps-2"></i>
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-sm-6 col-lg-12">
                   <div class="right_side_img">
                     <div class="right_side_up_img">
                       <picture>
@@ -271,14 +309,11 @@
                         />
                       </picture>
                       <div class="gradient_overelay w-100 h-100">
-                        <div class="px-lg-5">
-                          <h3>
-                            Unisaas Website <br />
-                            Design
-                          </h3>
+                        <div class="gradient_overela_text px-lg-5">
+                          <h3>Church Website Design</h3>
                           <a href="#" class="d-flex align-items-center">
                             View project
-                            <i class="fa-solid fa-arrow-right-long ps-lg-2"></i>
+                            <i class="fa-solid fa-arrow-right-long ps-2"></i>
                           </a>
                         </div>
                       </div>
@@ -301,21 +336,17 @@
       ===================================-->
 
     <section id="design_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="design_head_text tex text-center">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="design_head_text text-center">
               <p>Features</p>
-              <h4>
-                Design that solves <br />
-                problems, one product at <br />
-                a time
-              </h4>
+              <h4>Design that solves problems, one product at a time</h4>
             </div>
           </div>
         </div>
-        <div class="row gx-4 gy-3">
-          <div class="col-lg-4">
+        <div class="row gx-4 gy-3 gy-sm-4 gy-md-3">
+          <div class="col-sm-6 col-lg-4">
             <div class="design_template">
               <div>
                 <picture>
@@ -328,14 +359,13 @@
               </div>
               <h6>Uses Client First</h6>
               <p>
-                Euismod faucibus turpis eu gravida mi. <br />
-                Pellentesque et velit aliquam sed faucib <br />
-                turpis eu gravida mi. Pellentesque et <br />
-                velit aliquam sed mi.
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="design_template">
               <div>
                 <picture>
@@ -348,14 +378,13 @@
               </div>
               <h6>Two Free Revision Round</h6>
               <p>
-                Euismod faucibus turpis eu gravida mi. <br />
-                Pellentesque et velit aliquam sed faucib <br />
-                turpis eu gravida mi. Pellentesque et <br />
-                velit aliquam sed mi.
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="design_template">
               <div>
                 <picture>
@@ -368,14 +397,13 @@
               </div>
               <h6>Template Customization</h6>
               <p>
-                Euismod faucibus turpis eu gravida mi. <br />
-                Pellentesque et velit aliquam sed faucib <br />
-                turpis eu gravida mi. Pellentesque et <br />
-                velit aliquam sed mi.
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="design_template">
               <div>
                 <picture>
@@ -388,14 +416,13 @@
               </div>
               <h6>24/7 Support</h6>
               <p>
-                Euismod faucibus turpis eu gravida mi. <br />
-                Pellentesque et velit aliquam sed faucib <br />
-                turpis eu gravida mi. Pellentesque et <br />
-                velit aliquam sed mi.
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="design_template">
               <div>
                 <picture>
@@ -408,14 +435,13 @@
               </div>
               <h6>Quick Delivery</h6>
               <p>
-                Euismod faucibus turpis eu gravida mi. <br />
-                Pellentesque et velit aliquam sed faucib <br />
-                turpis eu gravida mi. Pellentesque et <br />
-                velit aliquam sed mi.
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="design_template">
               <div>
                 <picture>
@@ -428,10 +454,9 @@
               </div>
               <h6>Hands-on approach</h6>
               <p>
-                Euismod faucibus turpis eu gravida mi. <br />
-                Pellentesque et velit aliquam sed faucib <br />
-                turpis eu gravida mi. Pellentesque et <br />
-                velit aliquam sed mi.
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
               </p>
             </div>
           </div>
@@ -448,27 +473,23 @@
       ==================================== -->
 
     <section id="client_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row">
           <div class="col-lg-4">
             <div class="client_left_part">
-              <h2>
-                What our clients <br />
-                say about us
-              </h2>
+              <h2>What our clients say about us</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur <br />
-                adipiscing elit sed.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
               </p>
             </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-8 pt-sm-4 pt-md-5 pt-lg-0">
             <div class="client_right_part">
               <h3>
                 "The best agency we’ve worked with so far. They understand our
                 product and are able to add new features with a great focus."
               </h3>
-              <div class="client_flex d-flex align-items-center">
+              <div class="client_info d-flex align-items-center">
                 <picture>
                   <img
                     src="./images/client-smile.png"
@@ -497,18 +518,15 @@
       ==================================== -->
 
     <section id="faq_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row">
           <div class="col-lg-4">
             <div class="faq_left_part">
-              <h4>
-                Frequently <br />
-                asked questions
-              </h4>
+              <h4>Frequently asked questions</h4>
               <a href="#">Contact us for more info</a>
             </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-8 pt-sm-5 pt-lg-0">
             <div class="faq_right_accordion_part">
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -663,13 +681,13 @@
       ==================================== -->
 
     <!-- ================================
-             Form Part Html Start
+             Inquiry Part Html Start
       ==================================== -->
 
     <section id="inquiry_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row p-0 m-0">
-          <div class="col-lg-6 p-0 m-0">
+          <div class="col-md-6 col-lg-6 p-0 m-0">
             <div class="inquiry_right_part position-relative">
               <div>
                 <picture>
@@ -690,13 +708,13 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 p-0 m-0">
-            <div class="inquiry_left_part w-100 h-100 position-relative">
+          <div class="col-md-6 col-lg-6 p-0 m-0">
+            <div class="inquiry_left_part position-relative">
               <div class="inquiry_left_text position-absolute">
                 <h3>Send inquiry</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                  elit, sed do eiusmod tempor incididunt ut labore.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore.
                 </p>
                 <div class="form_part">
                   <form action="#">
@@ -735,7 +753,7 @@
                 <br />
                 <a href="#" class="d-flex align-items-center inquiry_get_btn">
                   Get in touch with us
-                  <i class="fa-solid fa-arrow-right-long ps-lg-3"></i>
+                  <i class="fa-solid fa-arrow-right-long ps-2 ps-sm-3"></i>
                 </a>
               </div>
             </div>
@@ -743,15 +761,16 @@
         </div>
       </div>
     </section>
+
     <!-- ================================
-             Form Part Html End
+             Inquiry Part Html End
       ==================================== -->
 
     <!-- ================================
              Blog Part Html Start
       ==================================== -->
     <section id="blog_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row">
           <div class="col-lg-12">
             <div>
@@ -760,7 +779,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="blog_content">
               <div>
                 <picture>
@@ -772,15 +791,19 @@
                 </picture>
               </div>
               <div>
-                <p class="blog_date">19 Jan 2022</p>
+                <div class="blog_date">
+                  <p>19 Jan 2022</p>
+                </div>
                 <h4>
                   How one Webflow user grew his single person consultancy from
                   $0-100K in 14 months
                 </h4>
-                <p class="blog_details">
-                  See how pivoting to Webflow changed one <br />
-                  person’s sales strategy and allowed him to attract
-                </p>
+                <div class="blog_details">
+                  <p>
+                    See how pivoting to Webflow changed one person’s sales
+                    strategy and allowed him to attract
+                  </p>
+                </div>
                 <a href="#" class="d-flex align-items-center inquiry_get_btn">
                   Read More
                   <i class="fa-solid fa-arrow-right-long ps-lg-3"></i>
@@ -788,7 +811,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="blog_content">
               <div>
                 <picture>
@@ -805,10 +828,12 @@
                   How one Webflow user grew his single person consultancy from
                   $0-100K in 14 months
                 </h4>
-                <p class="blog_details">
-                  See how pivoting to Webflow changed one <br />
-                  person’s sales strategy and allowed him to attract
-                </p>
+                <div class="blog_details">
+                  <p>
+                    See how pivoting to Webflow changed one person’s sales
+                    strategy and allowed him to attract
+                  </p>
+                </div>
                 <a href="#" class="d-flex align-items-center inquiry_get_btn">
                   Read More
                   <i class="fa-solid fa-arrow-right-long ps-lg-3"></i>
@@ -816,7 +841,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-6 col-lg-4 offset-sm-3 offset-lg-0">
             <div class="blog_content">
               <div>
                 <picture>
@@ -833,10 +858,12 @@
                   How one Webflow user grew his single person consultancy from
                   $0-100K in 14 months
                 </h4>
-                <p class="blog_details">
-                  See how pivoting to Webflow changed one <br />
-                  person’s sales strategy and allowed him to attract
-                </p>
+                <div class="blog_details">
+                  <p>
+                    See how pivoting to Webflow changed one person’s sales
+                    strategy and allowed him to attract
+                  </p>
+                </div>
                 <a href="#" class="d-flex align-items-center inquiry_get_btn">
                   Read More
                   <i class="fa-solid fa-arrow-right-long ps-lg-3"></i>
@@ -857,9 +884,9 @@
       ==================================== -->
 
     <section id="footer_part">
-      <div class="container p-0">
+      <div class="container p-0 px-5 px-sm-0">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-12 col-sm-6 col-lg-6">
             <div class="footer_left_part">
               <div>
                 <picture>
@@ -871,19 +898,18 @@
                 </picture>
               </div>
               <p>
-                We are always open to discuss your project and <br />
-                improve your online presence.
+                We are always open to discuss your project and improve your
+                online presence.
               </p>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-12 col-sm-6 col-lg-6">
             <div class="footer_right_part">
               <div>
                 <h3>Lets Talk!</h3>
                 <p>
-                  We are always open to discuss your project, <br />
-                  improve your online presence and help with your <br />
-                  UX/UI design challenges.
+                  We are always open to discuss your project, improve your
+                  online presence and help with your UX/UI design challenges.
                 </p>
               </div>
               <div class="social_icons">
@@ -894,8 +920,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-5">
-            <div class="footer_contact d-flex justify-content-lg-around">
+          <div class="col-12 col-sm-7 col-md-5 col-lg-5">
+            <div
+              class="footer_contact d-flex justify-content-between justify-content-lg-around"
+            >
               <div class="email_part">
                 <h6>Email me at</h6>
                 <a href="mailto:contact@website.com">contact@website.com</a>
@@ -918,49 +946,33 @@
             Last Footer Part Html Start
       ==================================== -->
 
-    <section id="last__part">
-      <div class="container p-0">
-        <div class="row justify-content-between">
-          <div class="col-lg-3">
-            <div class="last_left_part">
-              <a href="#">Copyright 2022, Finsweet.com</a>
+    <section id="last_part">
+      <div class="container p-0 px-5 px-sm-0">
+        <nav class="navbar navbar-expand-lg last_left_part">
+          <a href="#"> Copyright 2022, Finsweet.com </a>
+          <button
+            class="navbar-toggler custom_menu_icon"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto last_right_part">
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#">About US</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">FAQ</a>
+              <a class="nav-link" href="#">Blog</a>
             </div>
           </div>
-          <div class="col-lg-5">
-            <div class="last_right_part d-flex">
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href="#">About us</a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href="#">Features</a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href="#">Pricing</a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href="#">FAQ</a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        </nav>
       </div>
     </section>
 

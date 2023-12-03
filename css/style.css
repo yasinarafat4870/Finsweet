@@ -50,10 +50,10 @@ a {
   background: var(--banner_background);
   padding: 32px 0;
 }
-.custom_menu_icon {
+#navbar_part .custom_menu_icon {
   background: var(--white);
 }
-.menu_bar_icon {
+#navbar_part .menu_bar_icon {
   font-size: 31px;
 }
 

@@ -53,7 +53,7 @@ a {
 #navbar_part .custom_menu_icon {
   background: var(--white);
 }
-#navbar_part .menu_bar_icon {
+.menu_bar_icon {
   font-size: 31px;
 }
 
@@ -275,6 +275,7 @@ a {
   font-weight: 600;
   line-height: 36px;
 }
+
 #project_part .img_section .left_side_img .liner_overlay .liner_overlay_text p {
   color: var(--white, #fff);
   font-family: var(--poppins);
@@ -284,6 +285,7 @@ a {
   opacity: 0.8;
   padding-right: 74px;
 }
+
 #project_part .img_section .left_side_img .liner_overlay .liner_overlay_text a {
   color: var(--yellow, #fcd980);
   font-family: var(--poppins);
@@ -291,6 +293,7 @@ a {
   font-weight: 500;
   line-height: 28px;
 }
+
 #project_part .img_section .right_side_img .right_side_up_img {
   margin-bottom: 32px;
   cursor: pointer;
